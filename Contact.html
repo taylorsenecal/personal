@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Posts.html">Posts</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <header>
+        <div id="header"></div>
+            <script>
+                fetch('Header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+            </script>
     </header>
 
 <main>
