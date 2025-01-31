@@ -4,19 +4,20 @@ body {
     padding: 0;
     text-align: left;
 }
+
 header {
     background-color: #000042;
     color: white;
     padding: 1em;
     text-align: left;
-    font-family: 'Arabic Typesetting', serif;
+    font-family: Arabic Typesetting, serif;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    font-family: 'Arabic Typesetting', serif;
+    font-family: Arabic Typesetting, serif;
 }
 
 nav ul li {
