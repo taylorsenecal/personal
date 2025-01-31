@@ -1,11 +1,11 @@
-header {
+/*banner*/ header {
     background-color: #000042;
     color: white;
     padding: 1em;
     text-align: left;
     font-family: Arabic Typesetting, serif;
 }
-#taylorsenecal h1 {
+/*taylorsenecal*/ header h1 {
     color: white;
     text-align: left;
     font-family: Arabic Typesetting, serif;
