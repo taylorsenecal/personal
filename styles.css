@@ -5,14 +5,10 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #000042;
     color: white;
     padding: 1em;
     text-align: center;
-}
-
-header h1 {
-    color: #000042; /* Changed color of heading */
 }
 
 nav ul {
