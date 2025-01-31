@@ -8,15 +8,14 @@
 </head>
 <body>
     <header>
-        <img src="images/Headshot.jpg" alt="Headshot" style="float: right; width: 150px; height: 150px; border-radius: 50%;">
-        <h1>Taylor Senecal</h1>
-        <nav>
-            <ul>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Posts.html">Posts</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="header"></div>
+            <script>
+                fetch('Header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                    });
+            </script>
     </header>
     <main>
         <h1>Posts</h1>
