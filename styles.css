@@ -5,6 +5,11 @@ header {
     text-align: left;
     font-family: Arabic Typesetting, serif;
 }
+#taylorsenecal h1 {
+    color: white;
+    text-align: left;
+    font-family: Arabic Typesetting, serif;
+}
 
 nav ul {
     list-style-type: none;
