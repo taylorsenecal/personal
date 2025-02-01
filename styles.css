@@ -50,3 +50,27 @@ nav ul li a:hover {
 main {
     margin: 20px; /* Set consistent margin for main text */
 }
+
+.social-icon {
+    font-size: 24px; /* Adjust icon size */
+    margin-right: 10px; /* Space between icons */
+    color: #333; /* Default icon color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    color: #0077b5; /* Change color on hover/focus for LinkedIn */
+    outline: none; /* Remove default outline on focus */
+    text-decoration: underline; /* Add underline on hover/focus */
+}
+
+.social-icon[aria-label]::after {
+    content: attr(aria-label);
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px); /* Visually hide text but keep it accessible to screen readers */
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
