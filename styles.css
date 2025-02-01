@@ -3,20 +3,12 @@ header {
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
     padding: 1em; /* Add padding inside the header */
-    text-align: right; /* Align text to the right */
+    text-align: left; /* Align text to the left */
 }
     
 /* Style for the h1 inside header (Taylor Senecal) */
 header h1 {
     font-family: 'Arabic Typesetting', serif;   /* Set font family for the h1 */
-}
-
-/*set up banner to center headshot on*/ 
-.header-banner {
-    display: flex; /* Use flexbox to align items */
-    align-items: center;  /* Align items vertically in the center */
-    background-color: #000042;  /* Set background color to navy */
-    padding: 0px;  /* Add padding around the header */
 }
 
 /*insert headshot image top right*/ 
