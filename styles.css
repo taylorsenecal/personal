@@ -3,7 +3,7 @@ header {
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
     padding: 1em; /* Add padding inside the header */
-    text-align: left; /* Align text to the left */
+    text-align: right; /* Align text to the right */
 }
     
 /* Style for the h1 inside header (Taylor Senecal) */
