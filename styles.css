@@ -33,7 +33,7 @@ nav ul li {
 
 body {
     font-family: Arabic Typesetting, serif; /* Set font family for the body */
-    margin: 10px; /* Set consistent margin for all pages */
+    margin: 0; /* Set consistent margin for all pages */
     padding: 0; /* Remove default padding */
     text-align: left; /* Align text to the left */
 }
