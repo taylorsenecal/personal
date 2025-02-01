@@ -11,6 +11,14 @@ header h1 {
     font-family: 'Arabic Typesetting', serif;   /* Set font family for the h1 */
 }
 
+/*insert headshot image top right*/ 
+.headshot {
+    margin-right: 20px; /* Add right margin for spacing */
+    width: 120px; /* Set width of the headshot image */
+    height: 120px; /* Set height of the headshot image */
+    border-radius: 50%; /* Make the headshot image circular */
+}
+
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
     padding: 0;  /* Remove default padding */
