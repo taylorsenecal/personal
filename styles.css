@@ -5,22 +5,6 @@ header {
     padding: 1em; /* Add padding inside the header */
     text-align: left; /* Align text to the left */
 }
-
-/*set up banner to center headshot on*/ 
-.header-banner {
-    display: flex; /* Use flexbox to align items */
-    align-items: center;  /* Align items vertically in the center */
-    background-color: #000042;  /* Set background color to navy */
-    padding: 10px;  /* Add padding around the header */
-}
-
-/*align headshot with banner created above*/ 
-.headshot {
-    margin-right: 20px; /* Add right margin for spacing */
-    width: 120px; /* Set width of the headshot image */
-    height: 120px; /* Set height of the headshot image */
-    border-radius: 50%; /* Make the headshot image circular */
-}
     
 /* Style for the h1 inside header (Taylor Senecal) */
 header h1 {
