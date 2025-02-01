@@ -51,6 +51,19 @@ main {
     margin: 20px; /* Set consistent margin for main text */
 }
 
+/* Contact section */
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .social-icon {
     font-size: 24px; /* Adjust icon size */
     margin-right: 10px; /* Space between icons */
