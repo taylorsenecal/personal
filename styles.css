@@ -1,38 +1,56 @@
-/*banner*/ header {
-    background-color: #000042;
-    color: white;
-    padding: 1em;
-    text-align: left;
+/*Semantics*/ 
+header {    
+    background-color: #000042; /* Set background color of header */
+    color: white; /* Set background color of header */
+    padding: 1em; /* Add padding inside the header */
+    text-align: left; /* Align text to the left */
 }
-/*taylorsenecal*/
+
+/*set up banner to center headshot on*/ 
+.header-banner {
+    display: flex; /* Use flexbox to align items */
+    align-items: center;  /* Align items vertically in the center */
+    background-color: #000042;  /* Set background color to navy */
+    padding: 10px;  /* Add padding around the header */
+}
+
+/*align headshot with banner created above*/ 
+.headshot {
+    margin-right: 20px; /* Add right margin for spacing */
+    width: 120px; /* Set width of the headshot image */
+    height: 120px; /* Set height of the headshot image */
+    border-radius: 50%; /* Make the headshot image circular */
+}
+    
+/* Style for the h1 inside header (Taylor Senecal) */
 header h1 {
-    font-family: 'Arabic Typesetting', serif;
+    font-family: 'Arabic Typesetting', serif;   /* Set font family for the h1 */
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-    font-family: Arabic Typesetting, serif;
+    list-style-type: none;  /* Remove bullet points from list items */
+    padding: 0;  /* Remove default padding */
+    text-align: left;  /* Align text to the left */
+    font-family: Arabic Typesetting, serif; /* Set font family for the navigation list */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline; /* Display list items in a horizontal row */
+    margin-right: 10px;  /* Add space between list items */
 }
 
 body {
-    font-family: Arabic Typesetting, serif;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+    font-family: Arabic Typesetting, serif;  /* Set font family for the body */
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align text to the left */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Set text color to white for links */
+    text-decoration: none;  /* Remove underline from links */
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links when hovered */
 }
