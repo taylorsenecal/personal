@@ -11,6 +11,14 @@ header h1 {
     font-family: 'Arabic Typesetting', serif;   /* Set font family for the h1 */
 }
 
+/*set up banner to center headshot on*/ 
+.header-banner {
+    display: flex; /* Use flexbox to align items */
+    align-items: center;  /* Align items vertically in the center */
+    background-color: #000042;  /* Set background color to navy */
+    padding: 10px;  /* Add padding around the header */
+}
+
 /*insert headshot image top right*/ 
 .headshot {
     margin-right: 20px; /* Add right margin for spacing */
