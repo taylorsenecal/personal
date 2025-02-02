@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arabic Typesetting, serif; /* Set font family for the body */
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: white
+    margin 0; /* Set consistent margin for all pages */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align text to the left */
 }
 
 
@@ -39,19 +42,10 @@ nav ul li a {
     color: white; /* Set text color to white for links */
     text-decoration: none;  /* Remove underline from links */
 }
-
-body {
-    font-family: Arabic Typesetting, serif; /* Set font family for the body */
-    margin: 0; /* Set consistent margin for all pages */
-    padding: 0; /* Remove default padding */
-    text-align: left; /* Align text to the left */
-}
 nav ul li a:hover {
     text-decoration: underline; /* Underline links when hovered */
 }
 
-main {
-    margin: 20px; /* Set consistent margin for main text */
-}
+
 
 /* Contact section */
