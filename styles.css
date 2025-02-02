@@ -2,9 +2,9 @@
 header {    
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
+    padding: 20px 10%;
 }
 
-}
     /*insert headshot image top right*/ 
 .headshot {
     margin-right: 20px; /* Add right margin for spacing */
