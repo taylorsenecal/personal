@@ -17,16 +17,14 @@ header {
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
     padding: 10%;
-    display: flex; /* Enable flexbox layout */
-    justify-content: space-between; /* Space out items within the header */
-    align-items: center; /* Align items vertically in the center */
 }
     /*insert headshot image top right*/ 
 .headshot {
     width: 50%; /* Set width of the headshot image */
     height: 50%; /* Set height of the headshot image */
     border-radius: 50%; /* Make the headshot image circular */
-]
+    align-self: flex-end; /* Align the headshot to the right */
+}
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
     padding: 0;  /* Remove default padding */
