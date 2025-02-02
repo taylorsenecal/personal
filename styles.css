@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,21 +12,18 @@ body {
 }
 
 
-/*Index*/ 
+/*Index(Page Headers)*/ 
 header {    
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
-    padding: 10px 10%;
+    padding: 10%;
 }
-
     /*insert headshot image top right*/ 
 .headshot {
-    margin-right: 0; /* Add right margin for spacing */
-    width: 150px; /* Set width of the headshot image */
-    height: 150px; /* Set height of the headshot image */
+    width: 50%; /* Set width of the headshot image */
+    height: 50%; /* Set height of the headshot image */
     border-radius: 50%; /* Make the headshot image circular */
 }
-
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
     padding: 0;  /* Remove default padding */
