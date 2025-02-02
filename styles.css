@@ -1,17 +1,11 @@
-/*Semantics*/ 
+/*Index*/ 
 header {    
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
     padding: 1em; /* Add padding inside the header */
     text-align: left; /* Align text to the left */
 }
-    
-/* Style for the h1 inside header (Taylor Senecal) */
-header h1 {
-    font-family: 'Arabic Typesetting', serif;   /* Set font family for the h1 */
-}
-
-/*insert headshot image top right*/ 
+    /*insert headshot image top right*/ 
 .headshot {
     margin-right: 20px; /* Add right margin for spacing */
     width: 150px; /* Set width of the headshot image */
@@ -25,10 +19,13 @@ nav ul {
     text-align: left;  /* Align text to the left */
     font-family: Arabic Typesetting, serif; /* Set font family for the navigation list */
 }
-
 nav ul li {
     display: inline; /* Display list items in a horizontal row */
     margin-right: 10px;  /* Add space between list items */
+}
+nav ul li a {
+    color: white; /* Set text color to white for links */
+    text-decoration: none;  /* Remove underline from links */
 }
 
 body {
@@ -37,12 +34,6 @@ body {
     padding: 0; /* Remove default padding */
     text-align: left; /* Align text to the left */
 }
-
-nav ul li a {
-    color: white; /* Set text color to white for links */
-    text-decoration: none;  /* Remove underline from links */
-}
-
 nav ul li a:hover {
     text-decoration: underline; /* Underline links when hovered */
 }
@@ -52,26 +43,3 @@ main {
 }
 
 /* Contact section */
-.social-icon {
-    font-size: 24px; /* Adjust icon size */
-    margin-right: 10px; /* Space between icons */
-    color: #333; /* Default icon color */
-    text-decoration: none; /* Remove underline */
-}
-
-.social-icon:hover,
-.social-icon:focus {
-    color: #0077b5; /* Change color on hover/focus for LinkedIn */
-    outline: none; /* Remove default outline on focus */
-    text-decoration: underline; /* Add underline on hover/focus */
-}
-
-.social-icon[aria-label]::after {
-    content: attr(aria-label);
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px); /* Visually hide text but keep it accessible to screen readers */
-    clip-path: inset(50%);
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-}
