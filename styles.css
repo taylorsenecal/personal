@@ -6,8 +6,8 @@ header {
 }
     /*insert headshot image top right*/ 
 .headshot {
-    width: 100%; /* Set width of the headshot image */
-    height: 100%; /* Set height of the headshot image */
+    width: 50px; /* Set width of the headshot image */
+    height: 50px; /* Set height of the headshot image */
     border-radius: 50%; /* Make the headshot image circular */
 }
 nav ul {
