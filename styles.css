@@ -22,7 +22,7 @@ header {
 
     /*insert headshot image top right*/ 
 .headshot {
-    margin-right: 20px; /* Add right margin for spacing */
+    margin-right: 0; /* Add right margin for spacing */
     width: 150px; /* Set width of the headshot image */
     height: 150px; /* Set height of the headshot image */
     border-radius: 50%; /* Make the headshot image circular */
