@@ -23,6 +23,9 @@ header {
     width: 50%; /* Set width of the headshot image */
     height: 50%; /* Set height of the headshot image */
     border-radius: 50%; /* Make the headshot image circular */
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Space out items within the header */
+    align-items: center; /* Align items vertically in the center */
 }
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
