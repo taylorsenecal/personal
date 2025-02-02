@@ -6,9 +6,9 @@ header {
 }
     /*insert headshot image top right*/ 
 .headshot {
-    width: 25%; /* Set width of the headshot image */
-    height: 25%; /* Set height of the headshot image */
-    border-radius: 50%; /* Make the headshot image circular */
+    width: 30%; /* Set width of the headshot image */
+    height: 30%; /* Set height of the headshot image */
+    border-radius: 25%; /* Make the headshot image circular */
 }
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
