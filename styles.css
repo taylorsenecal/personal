@@ -21,7 +21,10 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline; /* Underline links when hovered */
 }
-
+.name {
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
 
 
 /* Contact section */
