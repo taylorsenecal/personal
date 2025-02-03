@@ -9,6 +9,7 @@ nav ul {
     padding: 0;  /* Remove default padding */
     text-align: left;  /* Align text to the left */
     font-family: Arabic Typesetting, serif; /* Set font family for the navigation list */
+    padding: 10%
 }
 nav ul li {
     display: inline; /* Display list items in a horizontal row */
