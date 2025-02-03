@@ -1,8 +1,8 @@
 /*Index(Page Headers)*/ 
-header {    
-    width: 100%;
+header {
     background-color: #000042; /* Set background color of header */
     color: white; /* Set background color of header */
+    margin-bottom: 20px;
 }
 nav ul {
     list-style-type: none;  /* Remove bullet points from list items */
