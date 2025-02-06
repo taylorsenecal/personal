@@ -11,7 +11,7 @@ nav ul {
     padding: 10%
 }
 nav ul li {
-    display: inline; /* Display list items in a horizontal row */
+    display: block; /* Display list items in a horizontal row */
     margin-right: 10px;  /* Add space between list items */
 }
 nav ul li a {
