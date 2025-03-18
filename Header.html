@@ -1,24 +1,35 @@
 </header>
-    <div class="header-content">
-        <div class="header-left">
-            <span class="name">Taylor Senecal</span>
-            <style>
-                .header-content {
-                    position: relative;
-                }
-                .header-left .name {
-                    position: absolute;
-                    top: 50px; /* Adjust this value to move the name down */
-                    left: 50px; /* Adjust this value to move the name to the right */
-                }
-            </style>
-        <div>
-        <nav>
-            <ul>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Posts.html">Posts</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<div class="header-content">
+    <div class="header-left">
+        <img src="path/to/your/headshot.jpg" alt="Headshot" class="headshot">
+        <span class="name">Taylor Senecal</span>
+        <style>
+            .header-content {
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+            .header-left {
+                display: flex;
+                align-items: center;
+            }
+            .header-left .name {
+                margin-left: 20px; /* Adjust this value to move the name to the right */
+                font-size: 24px; /* Adjust this value as needed */
+            }
+            .headshot {
+                width: 100px; /* Adjust this value to change the size of the headshot */
+                height: auto;
+                border-radius: 50%; /* Makes the headshot circular */
+            }
+        </style>
     <div>
+    <nav>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Posts.html">Posts</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<div>
 </header>
