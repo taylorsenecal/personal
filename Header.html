@@ -4,8 +4,8 @@
         <img src="images/Headshot.jpg" alt="Headshot" class="headshot">
         <span class="name">Taylor Senecal</span>
     </div>
-    <nav>
-        <ul class="nav-links">
+     <nav class="nav-bar">
+         <ul class="nav-links">
             <li><a href="About.html">About</a></li>
             <li><a href="Posts.html">Posts</a></li>
             <li><a href="Contact.html">Contact</a></li>
@@ -14,21 +14,25 @@
     <style>
         .header-content {
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            align-items: flex-start;
         }
         .header-left {
             display: flex;
             align-items: center;
-            margin-right: 20px; /* Adjust this value to add space between the headshot and the nav bar */
+             margin-bottom: 10px; /* Adjust this value to add space between the headshot/name and the nav bar */
         }
         .header-left .name {
             margin-left: 20px; /* Adjust this value to move the name to the right */
             font-size: 24px; /* Adjust this value as needed */
         }
         .headshot {
-            width: 200px; /* Adjust this value to change the size of the headshot */
+            width: 175px; /* Adjust this value to change the size of the headshot */
             height: auto;
             border-radius: 50%; /* Makes the headshot circular */
+        }
+        .nav-bar {
+            width: 100%;
         }
         .nav-links {
             display: flex;
@@ -37,7 +41,7 @@
             padding: 0;
         }
         .nav-links li {
-            margin-left: 20px; /* Adjust this value to add space between nav items */
+            margin-right: 20px; /* Adjust this value to add space between nav items */
         }
         .nav-links a {
             text-decoration: none;
