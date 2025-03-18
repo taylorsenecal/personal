@@ -1,35 +1,49 @@
 </header>
 <div class="header-content">
     <div class="header-left">
-        <img src="path/to/your/headshot.jpg" alt="Headshot" class="headshot">
+        <img src="images/Headshot.jpg" alt="Headshot" class="headshot">
         <span class="name">Taylor Senecal</span>
-        <style>
-            .header-content {
-                position: relative;
-                display: flex;
-                align-items: center;
-            }
-            .header-left {
-                display: flex;
-                align-items: center;
-            }
-            .header-left .name {
-                margin-left: 20px; /* Adjust this value to move the name to the right */
-                font-size: 24px; /* Adjust this value as needed */
-            }
-            .headshot {
-                width: 100px; /* Adjust this value to change the size of the headshot */
-                height: auto;
-                border-radius: 50%; /* Makes the headshot circular */
-            }
-        </style>
-    <div>
+    </div>
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="About.html">About</a></li>
             <li><a href="Posts.html">Posts</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </nav>
-<div>
+    <style>
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+            margin-right: 20px; /* Adjust this value to add space between the headshot and the nav bar */
+        }
+        .header-left .name {
+            margin-left: 20px; /* Adjust this value to move the name to the right */
+            font-size: 24px; /* Adjust this value as needed */
+        }
+        .headshot {
+            width: 100px; /* Adjust this value to change the size of the headshot */
+            height: auto;
+            border-radius: 50%; /* Makes the headshot circular */
+        }
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links li {
+            margin-left: 20px; /* Adjust this value to add space between nav items */
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: black; /* Adjust this value to change the nav links color */
+            font-size: 18px; /* Adjust this value as needed */
+        }
+    </style>
+</div>
 </header>
